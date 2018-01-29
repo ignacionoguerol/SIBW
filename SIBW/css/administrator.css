@@ -1,0 +1,388 @@
+body {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    border: 0px solid #666666;
+    min-width: 600px;
+    max-width: 1000px;
+}
+
+/**********************************************************************************************************************/
+/****************************************** HEAD **********************************************************************/
+/**********************************************************************************************************************/
+
+.head {
+    display: inline-block;
+    -border: 2px solid blue;
+}
+
+.head > p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #666666;
+    font-family: monospace;
+    font-size: 4em;
+    text-align: left;
+    margin-left: 20%;
+}
+
+#imgLogo {
+    float: left;
+    max-width: 10%;
+    margin-left: 0%;
+}
+
+/**********************************************************************************************************************/
+/****************************************** MENU **********************************************************************/
+/**********************************************************************************************************************/
+.active {
+    background-color: #d6d6d6;
+}
+
+#menu ul {
+    float: left;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+#menu li a {
+    display: block;
+    color: black;
+    -text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+
+    background-color: #d6d6d6;
+}
+
+#menu nav {
+    margin-top: 2%;
+    position: relative;
+}
+
+/**********************************************************************************************************************/
+/****************************************** CONTENIDO *****************************************************************/
+/**********************************************************************************************************************/
+.content {
+    position: relative;
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    position: relative;
+    text-align: left;
+    -border: 2px solid red;
+}
+
+.content p {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    margin-bottom: 0.1%;
+    -border: 1px solid red;
+}
+
+.content h1 {
+    font-size: 1em;
+}
+
+/**********************************************************************************************************************/
+/************************************** CONTENIDO CABECERA ************************************************************/
+/**********************************************************************************************************************/
+
+.cabeceraContent {
+    position: relative;
+    -border: 1px solid red;
+    background-color: #d6d6d6;
+
+}
+
+.cabeceraContent p {
+    margin-left: 2%;
+    font-size: 2em;
+    -border: 1px solid red;
+
+}
+
+/**********************************************************************************************************************/
+/*************************************  CONTENIDO CONTENIDO xD ********************************************************/
+/**********************************************************************************************************************/
+.contentContent {
+    height: 800px;
+    overflow-y: scroll;
+    background-color: #fafafa;
+    -border: 1px solid red;
+}
+
+.contentContent a{
+    margin-left: 2%;
+}
+
+/**********************************************************************************************************************/
+/****************************************** NOTICIAS ******************************************************************/
+/**********************************************************************************************************************/
+#cabeceraNoticiaGest {
+    -width: 100%;
+    text-align: left;
+    position: relative;
+    margin-bottom: 0%;
+    margin-left: 15%;
+    height: 20%;
+    background-color: #d6d6d6;
+}
+
+#cabeceraNoticiaGest p {
+    float: left;
+    margin-left: 4%;
+    margin-bottom: 0%;
+}
+
+#buscadorSecciones {
+    padding: 2%;
+    margin-left: 30%;
+}
+
+/**********************************************************************************************************************/
+/****************************************** COMENTARIOS ***************************************************************/
+/**********************************************************************************************************************/
+.vistaComentario {
+    margin-top: 3%;
+}
+
+/**********************************************************************************************************************/
+/****************************************** SECCIONES  ****************************************************************/
+/**********************************************************************************************************************/
+#secciones{
+    margin-left: 5%;
+}
+
+#subSecciones{
+    margin-left: 10%;
+}
+
+/**********************************************************************************************************************/
+/****************************************** BOTONES *******************************************************************/
+/**********************************************************************************************************************/
+.btn-general {
+    padding: 8px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 4px;
+    color: black;
+    outline: none;
+}
+
+.btn-general:hover {
+    background-color: whitesmoke;
+}
+
+#btn-crarNoticia {
+    position: absolute;
+    left: 80%;
+    top: 12%;
+    color: black;
+}
+
+#btn-crarComentario {
+    position: absolute;
+    top: 30%;
+    margin-left: 80%;
+    color: black;
+}
+
+#btn-crarComentario a:hover {
+    text-decoration: none;
+}
+
+#btn-seccionPrincipal {
+    position: absolute;
+    top: 10%;
+    right: 25.1%;
+    padding: 0.4%;
+    color: black;
+
+}
+
+#btn-seccionSecundaria {
+    position: absolute;
+    top: 10%;
+    right: 4%;
+    padding: 0.4%;
+    color: black;
+
+}
+
+#btn-anuncio{
+    position: absolute;
+    top: 10%;
+    right: 4%;
+    padding: 0.4%;
+    color: black;
+}
+
+#btn-modPortada{
+    margin-left: 10%;
+    margin-top: 0%;
+    max-width: 20%;
+    color: black;
+}
+/**********************************************************************************************************************/
+/****************************************** FORMS *********************************************************************/
+/**********************************************************************************************************************/
+/* Div que contiene el form */
+.formGestion {
+    position: relative;
+    margin-left: 15%;
+    background-color: #fafafa;
+    border: 1px solid transparent;
+}
+
+/* Posición de la caja del formulario */
+.formGestion form {
+    margin: 0;
+    margin-bottom: 10%;
+    text-align: center;
+    -border: 1px solid red;
+}
+
+/* Texto dentro de los tags forms */
+.formGestion form > p {
+    text-align: left;
+    font-size: 1.4em;
+    margin: 1%;
+    margin-left: 10%;
+
+}
+
+/* Título del formulario */
+.formGestion > p {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
+
+.formGestion .btn-general {
+    position: absolute;
+    max-width: 10%;
+    bottom: 2%;
+    left: 10%;
+}
+
+textarea, input {
+    width: 80%;
+    max-width: 80%;
+}
+
+textarea {
+    height: 100px;
+}
+
+.select {
+    margin-top: 1%;
+    float: left;
+}
+
+.acciones {
+
+    margin-bottom: 1%;
+    -border: 1px solid transparent;
+}
+.accionesP{
+    margin-bottom: 1.2%;
+}
+.accionesN {
+    position:relative;
+    left: 0;
+    float: left;
+    margin-bottom: 1%;
+    -border: 1px solid transparent;
+}
+
+.fila{
+    width: 100%;
+    padding-bottom: 2%;
+}
+#titular{
+    font-size: 1.2em;
+    color: #00ab00;
+
+}
+#gestPortada{
+    margin-left: 10%;
+    margin-right: 40%;
+    margin-bottom: 2%;
+}
+
+/**********************************************************************************************************************/
+/****************************************** OPTIONS *******************************************************************/
+/**********************************************************************************************************************/
+.session {
+    margin-left: 30%;
+    border: 4px solid whitesmoke;
+    max-width: 40%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #0000ff;
+}
+
+/**********************************************************************************************************************/
+/************************************* SCROLL *************************************************************************/
+/**********************************************************************************************************************/
+.scrollable {
+    -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(50, 50, 50, 0.25);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(50, 50, 50, 0.5);
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(50, 50, 50, 0.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
